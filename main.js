@@ -7,11 +7,11 @@ $(document).ready(function() {
         if(i % 2 != 0)
         {
             $("#futbol").fadeOut();
-            $("#stop").html('Appear!'); // change text on button click 
+            $("#stop").html('APPEAR'); // change text on button click 
         }
         else{
             $("#futbol").show();
-            $("#stop").html('Disappear!'); // change text on button click 
+            $("#stop").html('DISAPPEAR'); // change text on button click 
         }
     });
 
@@ -23,12 +23,12 @@ $(document).ready(function() {
         if(j % 2 != 0)
         {
             document.getElementById("futbol").style.animationDuration = "1s";
-            $("#speed").html('Go Slower!');
+            $("#speed").html('SLOW');
         }
         else{
             
             document.getElementById("futbol").style.animationDuration = "6s";
-            $("#speed").html('Go Faster!');
+            $("#speed").html('FAST');
         }
     });
 
