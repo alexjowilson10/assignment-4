@@ -66,15 +66,15 @@ $(document).ready(function(){
 
     /* card effects */
     $("#card-1").click(function(){
-        $('#project').css('background-color', 'purple');
+        $('#project').css('background-color', '#EE82EE');
     }); 
 
     $("#card-2").click(function(){
-        $('#project').css('background-color', 'red');
+        $('#project').css('background-color', '#FF4500');
     });
 
     $("#card-3").click(function(){
-        $('#project').css('background-color', 'green');
+        $('#project').css('background-color', '#3CB371');
     });
 
 
