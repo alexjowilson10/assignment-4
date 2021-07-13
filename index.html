@@ -1,41 +1,173 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Assignment 4 </title>
-    <link rel="stylesheet" href="style.css"></link>
-    <script src="jquery.js"></script>
-    <script src="main.js"></script>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/1b300db394.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+</head>
 
-  </head>
-
-  <body>
+<body>
     <div class="scroll-up-btn">
-      <i class="fas fa-angle-up"></i>
+        <i class="fas fa-angle-up"></i>
     </div>
 
+    <!--Navigation Bar -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Assignment<span> 4</span></a></div>
+            <ul class="menu">
+        
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"> </i>
+            </div>
+        </div>
+    </nav> 
+
+    <!----home section start ----> 
     <section class="home" id="home">
-      <div class="max-width">
-          <div class="home-content">
-              <div class="text-1">Hello, my name is</div>
-              <div class="text-2">Alex Wilson</div>
-              <div class="text-3">And I'm a <span class="typing"></span></div>
-          </div>
-      </div>
-  </section>
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Alex Wilson</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
 
     <!--Soccer Section -->
     <section class="firstSection" id="firstSection">
-      <div class="container" id="container">
-        <div class="soccer" id="futbol"></div>   
-        <button class="hideBall" id="stop">DISAPPEAR</button>
-        <button class="speedBall" id="speed">FAST</button>
-      </div>
+        <div class="container" id="container">
+            <div class="soccer" id="futbol"></div>   
+            <button class="hideBall" id="stop">DISAPPEAR</button>
+            <button class="speedBall" id="speed">FAST</button>
+        </div>
+        </section>
+
+
+    <!--Hobbies Section -->
+    <section class="hobbies" id="hobbies">
+        <div class="max-width">
+            <h2 class="title">My hobbies</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="images/messi.jpg" alt="">
+                        <div class="text">Playing & watching soccer</div>
+                        <p>I was introduced to the beautiful game in middle school and it has been my passion ever since. </p>
+                        <p>Fun fact, I have my own team called PSG in the Skagit Premier Soccer League in Skagit, WA.</p>
+                        <p>(P.S. Messi is the GOAT!)</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/xbox.jpg" alt="">
+                        <div class="text">Playing video games</div>
+                        <p>3 games I'm playing now:</p>
+                        <ol>
+                            <li>FIFA 21</li>
+                            <li>Resident Evil Village</li>
+                            <li>Mario Golf: Super Rush</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/SlimeLanguage.webp" alt="">
+                        <div class="text">Listening to <span>music</span></div>
+                        <p>3 albums I'm listening to now:</p>
+                        <ol>
+                            <li>Slime Language 2 by Young Thug</li>
+                            <li>The Off-Season by J. Cole</li>
+                            <li>Views by Drake</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="images/tuna.jpg" alt="">
+                        <div class="text">Eating delicious food</div>
+                        <p>My favorite dishes:</p>
+                        <ol>
+                            <li>Sushi</li>
+                            <li>Phố</li>
+                            <li>Carne Asada Tacos</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-  </body>
+
+
+
+
+    <!--About Section Start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">Lionel Messi</h2>
+            <div class="about-content">
+                <div class="column left"> 
+                    <img src="images/Messi_Argentina_Copa_America_Trophy_1625971376302_1625971405676.webp" id="copa">
+                </div>
+                <div class="column right">
+                    <div class="text" id="lolz">Copa America <span class="typing-2"></span></div>
+                </div>
+            </div>
+        </div>
+        <button class="messi" id="messi">SEE MORE</button>
+    </section>
+
+    <!--Project Section Start -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">Change Colors</h2>
+            <div class="project-content">
+                <div class="card card-1" id="card-1">
+                    <div class="box">
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">PURPLE</div>
+                    </div>
+                </div>
+                <div class="card card-2" id="card-2">
+                    <div class="box">
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">RED</div>
+                    </div>
+                </div>
+                <div class="card card-3" id="card-3">
+                    <div class="box">
+                        <i class="fas fa-desktop"></i>
+                        <div class="text">GREEN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+ 
+
+    <!--Footer Section -->
+    <footer>
+        <span>Created By <a href="#">Alex Wilson</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
+    </footer>
+
+
+    <script src="script.js"> </script>
+
+
+</body>
 </html>
